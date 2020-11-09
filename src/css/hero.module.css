@@ -1,0 +1,26 @@
+
+/*** 
+
+    Uso de modulos 
+
+    Nota: es importante que contenga la palbra moduie para que react lo entienda como modulo.
+    Nota: La importancia de usar modulos es que solo se va usar donde se requiera
+
+***/
+
+.imagenbg {
+    color: #fff;
+    height: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 2rem;
+    margin:0;
+    max-width: 800px;
+}

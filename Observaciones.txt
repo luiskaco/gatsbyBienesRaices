@@ -1,0 +1,43 @@
+| Paquetes Usado
+npm i @emotion/core @emotion/styled 
+
+| Plugin para gatsby y emotion
+
+npm i gatsby-plugin-emotion
+
+
+| Instalar El source de Strappi
+npm install gatsby-source-strapi
+
+Se Agrega en gatsby-config.js
+{
+    resolve: `gatsby-source-strapi`,
+}
+ 
+Doc: https://www.gatsbyjs.com/plugins/gatsby-source-strapi/?=source%20stra
+
+Nota; Al configurar el contentType y se filtre el contenido que se desea obtener, se debe habilitar los permisos en el stripe para obtener dichos contenidos. 
+
+
+| Gatsby componente de performance - background
+gatsby-background-image
+
+
+| Para hacer uso de modulos de CSS
+xxxx.module.xxx
+
+Nota: es importante que contenga la palbra moduie para que react lo entienda como modulo.
+Nota: La importancia de usar modulos es que solo se va usar donde se requiera
+
+
+| Archivo gatsby-node.js
+    Nota: Este archivo nos permite crear el contenido dinamico para que luego sea convertido en contenido esta
+
+    Nota: Cuando se trabaja con archivos gatsby-Xxxx se debuguea por la consola de terminal.
+
+
+| Dependencia para crear SLUG ya que strapi no los genera dinamica mente.
+
+    npm i url-slug
+
+NOta: Existe dos manera de hacerlo, o se crea un campo en el strapi como slug o se genera con un paquete.
